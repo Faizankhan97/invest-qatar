@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import NewsPaper from "../../assets/newsPaper.png";
+import NewsPaper from "../../assets/newspaper.png";
 import Image from "../../assets/image8.png";
 import "./latestInsights.scss";
 
@@ -60,7 +60,7 @@ const LatestInsights = () => {
               </div>
             </div>
             <div>
-                              <div className="box">
+              <div className="box">
                 <img src={Image} alt="" />
                 <h5>
                   Digital transformation in Qatar has accelerated due to
@@ -77,7 +77,7 @@ const LatestInsights = () => {
               </div>
             </div>
             <div>
-                              <div className="box">
+              <div className="box">
                 <img src={Image} alt="" />
                 <h5>
                   Digital transformation in Qatar has accelerated due to
@@ -95,7 +95,9 @@ const LatestInsights = () => {
             </div>
           </Slider>
         </div>
-        <a href="#" className="explore">Explore more Now?</a>
+        <a href="#" className="explore">
+          Explore more Now?
+        </a>
       </div>
     </div>
   );
