@@ -78,7 +78,7 @@ const LatestInsights = () => {
               </div>
             </div>
             <div>
-                              <div className="box">
+              <div className="box">
                 <img src={Image} alt="" />
                 <h5>
                   Digital transformation in Qatar has accelerated due to
@@ -95,7 +95,7 @@ const LatestInsights = () => {
               </div>
             </div>
             <div>
-                              <div className="box">
+              <div className="box">
                 <img src={Image} alt="" />
                 <h5>
                   Digital transformation in Qatar has accelerated due to
@@ -113,7 +113,9 @@ const LatestInsights = () => {
             </div>
           </Slider>
         </div>
-        <a href="#" className="explore">Explore more Now?</a>
+        <a href="#" className="explore">
+          Explore more Now?
+        </a>
       </div>
     </div>
   );
