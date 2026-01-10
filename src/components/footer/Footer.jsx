@@ -1,7 +1,7 @@
 import React from 'react'
 import Facebook from '../../assets/facebook.png'
 import Twitter from '../../assets/twitter.png'
-import LinkedIn from '../../assets/linkedin.png'
+import LinkedIn from '../../assets/linkedIn.png'
 import Instagram from '../../assets/instagram.png'
 import YouTube from '../../assets/youtube.png'
 import './footer.scss'

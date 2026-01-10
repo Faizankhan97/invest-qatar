@@ -1,9 +1,15 @@
 .investor{
     padding: 180px 81px 0;
+    @media (max-width: 768px) {
+        padding: 100px 20px 0;
+    }
     .bg-wrap{
         background: linear-gradient(90deg, #e9e7f4 0%, #f1edf8 35%, #faf4ec 70%, #fff8f0 100%);
         border-radius: 40px;
         padding: 112px 197px 0;
+        @media (max-width: 1200px) {
+            padding: 60px 40px 0;
+        }
         h6{
             img{
                 width: 22px;
@@ -17,6 +23,10 @@
             font-weight: 400;
             width: 514px;
             margin: auto;
+            @media (max-width: 768px) {
+                width: 100%;
+                font-size: 16px;
+            }
         }
         .action-button{
             display: flex;
@@ -43,6 +53,13 @@
                 color: #2E4E5E;
                 font-family: "Vazirmatn", sans-serif;
                 cursor: pointer;
+            }
+            @media (max-width: 768px) {
+                margin: 20px 0 50px;
+                .button1, .button2{
+                    padding: 10px 20px;
+                    font-size: 16px;
+                }
             }
         }
     }
@@ -74,6 +91,9 @@
             background-size: cover;
             height: 90%;
             margin: auto;
+            @media (max-width: 768px) {
+                top: -10px;
+            }
         }
         .box3{
             background-image: url("../../assets/image12.png");
@@ -83,6 +103,9 @@
             background-size: cover;
             position: relative;
             z-index: 99;
+            @media (max-width: 768px) {
+                padding: 60px 50px 0;
+            }
             img{
                 width: 100%;
                 height: auto;

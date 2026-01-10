@@ -135,4 +135,36 @@
       height: 11px;
     }
   }
+  @media (max-width: 768px) {
+    height: 100%;
+    padding: 150px 20px 50px;
+    .slick-slide {
+      h1 {
+        font-size: 32px;
+      }
+      p {
+        font-size: 16px;
+        margin: 16px 0 30px;
+      }
+      button {
+        font-size: 14px;
+        padding: 8px 20px;
+      }
+    }
+    .list-slider {
+      width: 100%;
+      margin-top: 50px;
+      .slick-slide, .slick-slide.slick-active.slick-current {
+        h3 {
+          font-size: 15px;
+        }
+        h5 {
+          font-size: 15px;
+        }
+      }
+    }
+    .slick-arrow.slick-prev,  .slick-arrow.slick-next {
+      display: none !important;
+    }
+  }
 }

@@ -40,22 +40,35 @@ ul {
   padding: 0;
 }
 
-h6{
-  color: #E47E3D;
+h6 {
+  color: #e47e3d;
   font-size: 20px;
   font-family: "Vazirmatn", sans-serif;
   font-weight: 400;
   margin: 0;
 }
 
-h2{
+h2 {
   font-size: 34px;
   font-weight: 600;
   margin-top: 15px;
   margin-bottom: 20px;
-  color: #2E4E5E;
+  color: #2e4e5e;
 }
 
-p{
+p {
   font-family: "Vazirmatn", sans-serif;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 28px;
+  }
+  h6 {
+    font-size: 14px;
+  }
+  h6 img {
+    width: 20px;
+    height: 20px;
+  }
 }

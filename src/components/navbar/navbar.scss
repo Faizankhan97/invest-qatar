@@ -78,4 +78,13 @@ nav.navbar {
       height: 5.6px;
     }
   }
+  @media (max-width: 768px) {
+    padding: 20px 30px;
+    .navbar-brand {
+      img {
+        width: 100px;
+        height: 45px;
+      }
+    }
+  }
 }

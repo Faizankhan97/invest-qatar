@@ -26,6 +26,12 @@
             }
         }
     }
+
+    @media (max-width: 768px) {
+        .left-wrap{
+            padding: 40px 20px 40px 20px;
+        }
+    }
     
     .right-wrap{
         padding: 70px 100px 70px 70px;
@@ -121,6 +127,24 @@
                         }
                     }
                 }
+                @media (max-width: 480px) {
+                    margin-top: 20px;
+                    span{
+                        width: 30px;
+                    }
+                }
+            }
+            @media (max-width: 768px) {
+                height: auto;
+                padding: 40px 20px;
+            }
+        }
+    }
+    @media (max-width: 1200px) {
+        .right-wrap{
+            padding: 70px 30px 70px;
+            .box{
+                height: auto;
             }
         }
     }
@@ -146,6 +170,20 @@
                 text-decoration: none;
                 font-weight: 400;
                 font-family: "Vazirmatn", sans-serif;
+            }
+        }
+    }
+    @media (max-width: 768px) {
+        padding: 20px;
+        text-align: center;
+        ul{
+            justify-content: center;
+            margin-top: 10px;
+            li{
+                margin-right: 15px;
+                a{
+                    font-size: 12px;
+                }
             }
         }
     }

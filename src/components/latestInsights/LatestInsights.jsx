@@ -1,17 +1,35 @@
 import React from "react";
 import Slider from "react-slick";
-import NewsPaper from "../../assets/newsPaper.png";
+import NewsPaper from "../../assets/newspaper.png";
 import Image from "../../assets/image8.png";
 import "./latestInsights.scss";
 
 const LatestInsights = () => {
   const settings = {
-    dots: false,
-    infinite: true,
-    // speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
-  };
+  dots: false,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+      },
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
+};
+
   return (
     <div className="latestInsights">
       <div className="container">
