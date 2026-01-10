@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap");
+
+@font-face {
+  font-family: "brando arabic";
+  src: url("./assets/fonts/brando_arabic_black.otf") format("opentype");
+}
+@font-face {
+  font-family: "brando arabic";
+  src: url("./assets/fonts/brando_arabic_bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "brando arabic";
+  src: url("./assets/fonts/brando_arabic_semibold.otf") format("opentype");
+}
+@font-face {
+  font-family: "brando arabic";
+  src: url("./assets/fonts/brando_arabic_regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "brando arabic";
+  src: url("./assets/fonts/brando_arabic_text.otf") format("opentype");
+}
+@font-face {
+  font-family: "brando arabic";
+  src: url("./assets/fonts/brando_arabic_light.otf") format("opentype");
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "brando arabic";
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h6{
+  color: #E47E3D;
+  font-size: 20px;
+  font-family: "Vazirmatn", sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+h2{
+  font-size: 34px;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: #2E4E5E;
+}
+
+p{
+  font-family: "Vazirmatn", sans-serif;
+}

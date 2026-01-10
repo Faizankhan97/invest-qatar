@@ -1,0 +1,35 @@
+.guiding{
+    background-image: url("../../assets/image7.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    padding-top: 102px;
+
+    h6{
+        color: #FFBF3C;
+        img{
+            width: 22px;
+            height: 22px;
+        }
+    }
+
+    h2{
+        color: #fff;
+    }
+    p{
+        color: #fff;
+        font-size: 20px
+    }
+
+    button{
+        background-color: #fff;
+        border-radius: 9px;
+        padding: 12px 29px;
+        border: none;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "Vazirmatn", sans-serif;
+        color: #2E4E5E;
+    }
+}

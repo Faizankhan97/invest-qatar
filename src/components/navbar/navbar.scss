@@ -1,0 +1,81 @@
+nav.navbar {
+  padding: 32px 60px 10px;
+  position: absolute;
+  width: 100%;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  font-family: "Vazirmatn", sans-serif;
+
+  .flag {
+    display: flex;
+    align-items: center;
+    .btn {
+      background-color: white;
+      border-radius: 9px;
+      font-family: "Vazirmatn", sans-serif;
+      font-size: 16px;
+      padding: 11px 10px;
+      font-weight: 500;
+      color: #2e4e5e;
+    }
+    .country {
+      width: 40px;
+      height: 24px;
+      margin-right: 17px;
+    }
+    .person {
+      width: 25px;
+      margin-right: 20px;
+      height: 25px;
+    }
+    
+    span{
+      border: 1px solid #a5aaaf;
+      height: 25px;
+    }
+    .input-search {
+      display: flex;
+      align-items: center;
+      padding-left: 13px;
+      gap: 6px;
+      img {
+        width: 20px;
+        height: 20px;
+      }
+      .form-control {
+        background-color: transparent;
+        border: none;
+        width: 80px;
+        padding: 0;
+        color: #A5AAAF;
+        font-size: 16px;
+        font-family: "Vazirmatn", sans-serif;
+        font-weight: 300;
+        &::placeholder{
+          color: #A5AAAF;
+        }
+      }
+    }
+  }
+
+  .navbar-brand {
+    margin-right: 20px;
+    img {
+      width: 120px;
+      height: 55px;
+    }
+  }
+  .nav-link {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 16px;
+    font-weight: 500;
+    img {
+      width: 11px;
+      height: 5.6px;
+    }
+  }
+}

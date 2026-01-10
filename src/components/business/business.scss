@@ -1,0 +1,46 @@
+.business {
+  background-color: #f5f8fa;
+  padding: 130px 0 100px;
+  p {
+    font-size: 20px;
+    color: #788089;
+    line-height: 28px;
+    font-weight: 400;
+  }
+
+  h6{
+    img{
+        width: 22px;
+        height: 22px;
+    }
+  }
+
+  .img-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    img{
+        object-fit: contain;
+    }
+    .img1{
+        width: 150px;
+        height: 67px;
+        opacity: .5;
+    }
+    .img2{
+        width: 290px;
+        height: 75px;
+        opacity: .5;
+    }
+    .img3{
+        width: 150px;
+        height: 84px;
+        opacity: .5;
+    }
+    .img4{
+        width: 190px;
+        height: 67px;
+        opacity: .5;
+    }
+  }
+}

@@ -1,0 +1,152 @@
+.footer{
+    background-color: #F5F8FA;
+    .left-wrap{
+        background-color: #fff;
+        padding: 70px 0px 70px 70px;
+        border: 1px solid #E8D0D7;
+        h5{
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 25px;
+            color: #2E4E5E;
+        }
+        .box2, .box3{
+            padding-top: 27px;
+        }
+        ul{
+            li{
+                margin-bottom: 15px;
+                a{
+                    color: #788089;
+                    font-size: 18px;
+                    text-decoration: none;
+                    font-weight: 300;
+                    font-family: "Vazirmatn", sans-serif;
+                }
+            }
+        }
+    }
+    
+    .right-wrap{
+        padding: 70px 100px 70px 70px;
+        border-top: 1px solid #E8D0D7;
+        .box{
+            height: 864px;
+            background-color: #FFFFFF;
+            border-radius: 16px;
+            padding: 40px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            h5{
+                color: #2E4E5E;
+                font-size: 20px;
+                font-weight: 600;
+            }
+            p{
+                color: #788089;
+                font-size: 18px;
+                font-weight: 300;
+                margin: 15px 0 20px;
+                font-family: "Vazirmatn", sans-serif;
+                a{
+                    color: #008AAB;
+                    text-underline-offset: 5px;
+                }
+            }
+            .inputed{
+                input{
+                    border: 1px solid #D1D4D7;
+                    border-radius: 10px;
+                    color: #A5AAAF;
+                    font-size: 18px;
+                    font-family: "Vazirmatn", sans-serif;
+                    font-weight: 300;
+                    padding: 15px 20px;
+                    margin-bottom: 20px;
+                    &::placeholder{
+                        color: #A5AAAF;
+                    }
+                }
+                button{
+                    background-color: #2E4E5E;
+                    border-radius: 9px;
+                    color: #FFFFFF;
+                    font-size: 18px;
+                    border: none;
+                    font-weight: 500;
+                    font-family: "Vazirmatn", sans-serif;
+                    padding: 11px 28px;
+                }
+            }
+            .follow{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                h4{
+                    color: #788089;
+                    font-size: 20px;
+                    margin-bottom: 0;
+                    font-weight: 500;
+                    font-family: "Vazirmatn", sans-serif;
+                }
+                span{
+                    width: 93px;
+                    height: 1px;
+                    background-color: #000000;
+                }
+                ul{
+                    display: flex;
+                    li{
+                        margin-left: 15px;
+                        .img1{
+                            width: 23px;
+                            height: 22px;
+                        }
+                        .img2{
+                            width: 21px;
+                            height: 21px;
+                        }
+                        .img3{
+                            width: 9px;
+                            height: 21px;
+                        }
+                        .img4{
+                            width: 25px;
+                            height: 18px;
+                        }
+                        .img5{
+                            width: 24px;
+                            height: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.copyright{
+    background-color: #2E4E5E;
+    padding: 20px 70px 15px;
+    h4{
+        color: rgb(255, 255, 255, .6);
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0;
+        font-family: "Vazirmatn", sans-serif;
+    }
+    ul{
+        display: flex;
+        li{
+            margin-right: 30px;
+            a{
+                color: rgb(255, 255, 255, .6);
+                font-size: 16px;
+                text-decoration: none;
+                font-weight: 400;
+                font-family: "Vazirmatn", sans-serif;
+            }
+        }
+    }
+}
