@@ -26,6 +26,10 @@
       font-weight: 500;
       padding: 11px 26px;
       cursor: pointer;
+      &:hover {
+        background-color: white;
+        color: #2e4e5e;
+      }
     }
   }
 
@@ -87,7 +91,7 @@
     }
   }
   .slick-arrow.slick-prev {
-    border: 1px solid rgb(255, 255, 255, .5);
+    border: 1px solid rgb(255, 255, 255, 0.5);
     border-radius: 50px;
     width: 84px;
     height: 48px;
@@ -112,7 +116,7 @@
     }
   }
   .slick-arrow.slick-next {
-    border: 1px solid rgb(255, 255, 255, .5);
+    border: 1px solid rgb(255, 255, 255, 0.5);
     border-radius: 50px;
     width: 84px;
     height: 48px;
@@ -154,7 +158,8 @@
     .list-slider {
       width: 100%;
       margin-top: 50px;
-      .slick-slide, .slick-slide.slick-active.slick-current {
+      .slick-slide,
+      .slick-slide.slick-active.slick-current {
         h3 {
           font-size: 15px;
         }
@@ -163,7 +168,8 @@
         }
       }
     }
-    .slick-arrow.slick-prev,  .slick-arrow.slick-next {
+    .slick-arrow.slick-prev,
+    .slick-arrow.slick-next {
       display: none !important;
     }
   }

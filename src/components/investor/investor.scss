@@ -1,117 +1,126 @@
-.investor{
-    padding: 180px 81px 0;
-    @media (max-width: 768px) {
-        padding: 100px 20px 0;
+.investor {
+  padding: 180px 81px 0;
+  @media (max-width: 768px) {
+    padding: 100px 20px 0;
+  }
+  .bg-wrap {
+    background: linear-gradient(
+      90deg,
+      #e9e7f4 0%,
+      #f1edf8 35%,
+      #faf4ec 70%,
+      #fff8f0 100%
+    );
+    border-radius: 40px;
+    padding: 112px 197px 0;
+    @media (max-width: 1200px) {
+      padding: 60px 40px 0;
     }
-    .bg-wrap{
-        background: linear-gradient(90deg, #e9e7f4 0%, #f1edf8 35%, #faf4ec 70%, #fff8f0 100%);
-        border-radius: 40px;
-        padding: 112px 197px 0;
-        @media (max-width: 1200px) {
-            padding: 60px 40px 0;
-        }
-        h6{
-            img{
-                width: 22px;
-                height: 22px;
-            }
-        }
-
-        p{
-            font-size: 18px;
-            color: #A5AAAF;
-            font-weight: 400;
-            width: 514px;
-            margin: auto;
-            @media (max-width: 768px) {
-                width: 100%;
-                font-size: 16px;
-            }
-        }
-        .action-button{
-            display: flex;
-            align-items: center;
-            margin: 40px 0 100px;
-            justify-content: center;
-            gap: 15px;
-            .button1{
-                background-color: #2E4E5E;
-                border: none;
-                border-radius: 9px;
-                padding: 12px 24px;
-                font-size: 18px;
-                color: #FFFFFF;
-                font-family: "Vazirmatn", sans-serif;
-                cursor: pointer;
-            }
-            .button2{
-                border: 1px solid #2E4E5E;
-                background-color: transparent;
-                border-radius: 9px;
-                padding: 12px 24px;
-                font-size: 18px;
-                color: #2E4E5E;
-                font-family: "Vazirmatn", sans-serif;
-                cursor: pointer;
-            }
-            @media (max-width: 768px) {
-                margin: 20px 0 50px;
-                .button1, .button2{
-                    padding: 10px 20px;
-                    font-size: 16px;
-                }
-            }
-        }
+    h6 {
+      img {
+        width: 22px;
+        height: 22px;
+      }
     }
 
-    .img-wrap{
-        position: relative;
-        .box2{
-            background-image: url("../../assets/image13.png");
-            background-position: center;
-            position: absolute;
-            background-repeat: no-repeat;
-            top: 0;
-            width: 85%;
-            left: 0;
-            right: 0;
-            background-size: cover;
-            height: 100%;
-            margin: auto;
-        }
-        .box1{
-            background-image: url("../../assets/image13.png");
-            background-position: center;
-            position: absolute;
-            background-repeat: no-repeat;
-            top: -30px;
-            width: 80%;
-            left: 0;
-            right: 0;
-            background-size: cover;
-            height: 90%;
-            margin: auto;
-            @media (max-width: 768px) {
-                top: -10px;
-            }
-        }
-        .box3{
-            background-image: url("../../assets/image12.png");
-            padding: 153px 117px 0;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: relative;
-            z-index: 99;
-            @media (max-width: 768px) {
-                padding: 60px 50px 0;
-            }
-            img{
-                width: 100%;
-                height: auto;
-                
-            }
-        }
-        
+    p {
+      font-size: 18px;
+      color: #a5aaaf;
+      font-weight: 400;
+      width: 514px;
+      margin: auto;
+      @media (max-width: 768px) {
+        width: 100%;
+        font-size: 16px;
+      }
     }
+    .action-button {
+      display: flex;
+      align-items: center;
+      margin: 40px 0 100px;
+      justify-content: center;
+      gap: 15px;
+      .button1 {
+        background-color: #2e4e5e;
+        border: none;
+        border-radius: 9px;
+        padding: 12px 24px;
+        font-size: 18px;
+        color: #ffffff;
+        font-family: "Vazirmatn", sans-serif;
+        cursor: pointer;
+      }
+      .button2 {
+        border: 1px solid #2e4e5e;
+        background-color: transparent;
+        border-radius: 9px;
+        padding: 12px 24px;
+        font-size: 18px;
+        color: #2e4e5e;
+        font-family: "Vazirmatn", sans-serif;
+        cursor: pointer;
+        &:hover {
+          background-color: #2e4e5e;
+          color: white;
+        }
+      }
+      @media (max-width: 768px) {
+        margin: 20px 0 50px;
+        .button1,
+        .button2 {
+          padding: 10px 20px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  .img-wrap {
+    position: relative;
+    .box2 {
+      background-image: url("../../assets/image13.png");
+      background-position: center;
+      position: absolute;
+      background-repeat: no-repeat;
+      top: 0;
+      width: 85%;
+      left: 0;
+      right: 0;
+      background-size: cover;
+      height: 100%;
+      margin: auto;
+    }
+    .box1 {
+      background-image: url("../../assets/image13.png");
+      background-position: center;
+      position: absolute;
+      background-repeat: no-repeat;
+      top: -30px;
+      width: 80%;
+      left: 0;
+      right: 0;
+      background-size: cover;
+      height: 90%;
+      margin: auto;
+      @media (max-width: 768px) {
+        top: -10px;
+      }
+    }
+    .box3 {
+      background-image: url("../../assets/image12.png");
+      padding: 153px 117px 0;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      z-index: 99;
+      @media (max-width: 768px) {
+        padding: 60px 50px 0;
+      }
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
 }

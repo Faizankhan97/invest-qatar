@@ -1,6 +1,12 @@
 .globalGrowth {
   .wrap {
     padding: 40px 150px 40px 100px;
+    h6 {
+      img {
+        width: 22px;
+        height: 22px;
+      }
+    }
     ul {
       li {
         font-size: 25px;
@@ -50,12 +56,12 @@
           }
         }
       }
-      h2{
+      h2 {
         font-size: 24px;
       }
-      h6{
+      h6 {
         font-size: 14px;
-        img{
+        img {
           width: 20px;
           height: 20px;
           margin-right: 10px;
